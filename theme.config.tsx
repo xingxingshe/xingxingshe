@@ -46,7 +46,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s – Nextra'
+        titleTemplate: '%s –'
       }
     }
   },
@@ -79,7 +79,7 @@ const config: DocsThemeConfig = {
         <meta name="twitter:url" content="https://nextra.site" />
         <meta
           name="og:title"
-          content={title ? title + ' – Nextra' : 'Nextra'}
+          content={title ? title + '–' : ''}
         />
         <meta name="og:image" content={socialCard} />
         <meta name="apple-mobile-web-app-title" content="Nextra" />
