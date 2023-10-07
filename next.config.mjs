@@ -15,6 +15,9 @@ export default withNextra({
   eslint: {
     ignoreDuringBuilds: true
   },
+  images: {
+    unoptimized: true,
+  },
   redirects: () => [
     {
       source: '/docs/guide/:slug(typescript|latex|tailwind-css|mermaid)',
