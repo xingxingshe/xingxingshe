@@ -46,6 +46,11 @@ jobs:
         run: pnpm install
       - name: Build my App
         run: pnpm run build && pnpm run export && touch ./out/.nojekyll
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./out
+# Deployment job
   deploy:
     environment:
       name: github-pages
