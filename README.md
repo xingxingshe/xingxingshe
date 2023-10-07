@@ -38,6 +38,6 @@ pnpm build
 | pnpm dev:layout   | Watch mode (layout only) |
 | pnpm dev:tailwind | Watch mode (style only)  |
 
-### Development
+### Development owner
 
 ```
