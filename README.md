@@ -2,7 +2,7 @@
 # xingxingshe
 
 Simple, powerful and flexible site generation framework with everything you love
-from Next.js.
+from Next.js. Text
 
 ## Documentation
 
